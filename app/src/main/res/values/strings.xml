@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">동국냥케어</string>
+    <string name="fm_1_bt1">업로드</string>
+    <string name="fm_1_bt2">필터</string>
+    <string name="fm_3_bt1">추가/수정 요청</string>
+    <string name="fm_4_bt1">내 정보</string>
+    <string name="fm_4_m1">Kwon.M.J.</string>
+    <string name="fm_4_m2">Ham.E.J.</string>
+
+    <string name="stating_button">시작하기</string>
+
+    <string name="tutorial01">처음 만나는 동국대 냥이 케어서비스!</string>
+    <string name="tutorial01_t">동국냥케어</string>
+    <string name="tutorial02">동국냥이들의 상태와 최신 모습을 손쉽게 알아볼 수 있습니다.\n건강 상태까지 한번에!</string>
+    <string name="tutorial02_t">손쉽게 찾아보는 냥이들 소식</string>
+    <string name="tutorial03">새로운 냥이를 보면 관리자에게 추가를 요청할 수 있습니다.\n언제든지 제보 주세요!</string>
+    <string name="tutorial03_t">신속한 제보와 동국냥 사진 공유</string>
+    <string name="tutorial04">서비스 이용 시 별도의 개인정보를 제공하지 않아 개인정보에 대한 걱정은 더 이상 필요하지 않습니다.</string>
+    <string name="tutorial04_t">안전한 MAC 주소 이용</string>
+</resources>

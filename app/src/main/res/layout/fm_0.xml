@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/refresh"
+                android:background="@drawable/refresh"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp" />
+
+            <View android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"></View>
+            <Button
+                android:layout_height="50dp"
+                android:text="@string/fm_1_bt2"
+                android:id="@+id/filter"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/menu_selector" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"></View>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+            android:divider="@color/transparent"
+            android:dividerHeight="0dp" />
+
+        <ProgressBar
+            android:id="@+id/pbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+        </ProgressBar>
+
+    </FrameLayout>
+
+</LinearLayout>

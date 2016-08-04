@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="actionbar_dimen">56dp</dimen>
+    <dimen name="actionbar_dimen_w">56dp</dimen>
+
+    <dimen name="tutorial">14dp</dimen>
+    <dimen name="tutorial_t">23dp</dimen>
+</resources>
